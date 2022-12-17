@@ -1,0 +1,337 @@
+
+@font-face {
+    font-family:Aeonik;
+    src: url(Aeonik/AeonikTRIAL-Regular.otf);
+}
+
+html
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* Navigation/Header */
+
+nav
+{
+    background-color: #1D9A6C;
+}
+
+label.Name
+{
+    font-size: 5.5vh;
+    margin-left: 5vw;
+}
+
+nav ul.Links
+{
+    float:right;
+}
+
+ul.Links
+{
+    display: flex;
+    margin-top: 0.8vh;
+}
+
+li.List a.Link
+{
+    color: #033521;
+    font-size: 3.5vh;
+    margin-right: 2vw;
+    font-weight: bold;
+    font-family:Aeonik;
+}
+
+a.Link#active
+{
+    background-color: #83cca1;
+    padding: 1.5vh 1.5vw;
+}
+
+a.Link:hover
+{
+    background-color: #6eb78b;
+    padding: 1.5vh 1.5vw;
+    cursor: pointer;
+}
+
+/* Navigation/Header */
+
+/* Body */
+
+.card-section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container1
+{
+    width: 500px;
+    height: 500px;
+    margin: 1rem;
+    perspective: 800px;
+}
+
+.container1:hover > .card
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.card
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.front1, .back1
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front1
+{
+    background-image: url(./Images/Cloud_Seekho.jpeg);
+    background-size: cover;
+}
+
+.back1
+{
+    background-color: #74C67A;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    color: #0A2F51;
+    padding: 25px 25px;
+}
+
+.back1 h1
+{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family:Aeonik;
+}
+
+.back1 p
+{
+    font-size: 20px;
+    font-family:Aeonik;
+}
+
+.container2
+{
+    width: 500px;
+    height: 500px;
+    margin: 1rem;
+    perspective: 800px;
+}
+
+.container2:hover > .card
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.card
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.front2, .back2
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front2
+{
+    background-image: url(./Images/VOITH.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.back2
+{
+    background-color: #74C67A;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    color: #0A2F51;
+    padding: 25px 25px;
+}
+
+.back2 h1
+{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family:Aeonik;
+}
+
+.back2 p
+{
+    font-size: 20px;
+    font-family:Aeonik;
+}
+
+.container3
+{
+    width: 500px;
+    height: 500px;
+    margin: 1rem;
+    perspective: 800px;
+}
+
+.container3:hover > .card
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.card
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.front3, .back3
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front3
+{
+    background-image: url(./Images/T4CJV.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.back3
+{
+    background-color: #74C67A;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    color: #0A2F51;
+    padding: 25px 25px;
+}
+
+.back3 h1
+{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family:Aeonik;
+}
+
+.back3 p
+{
+    font-size: 20px;
+    font-family:Aeonik;
+}
+
+.container4
+{
+    width: 500px;
+    height: 500px;
+    margin: 1rem;
+    perspective: 800px;
+}
+
+.container4:hover > .card
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.card
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.front4, .back4
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front4
+{
+    background-image: url(./Images/FYP1.jpeg);
+    background-size:cover;
+}
+
+.back4
+{
+    background-color: #74C67A;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    color: #0A2F51;
+    padding: 25px 25px;
+}
+
+.back4 h1
+{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family:Aeonik;
+}
+
+.back4 p
+{
+    font-size: 20px;
+    font-family:Aeonik;
+}
+
+/* Body */

@@ -1,0 +1,137 @@
+
+@font-face {
+    font-family:Aeonik;
+    src: url(Aeonik/AeonikTRIAL-Regular.otf);
+}
+
+html
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* Navigation/Header */
+
+nav
+{
+    background-color: #1D9A6C;
+}
+
+label.Name
+{
+    font-size: 5.5vh;
+    margin-left: 5vw;
+}
+
+nav ul.Links
+{
+    float:right;
+}
+
+ul.Links
+{
+    display: flex;
+    margin-top: 0.8vh;
+}
+
+li.List a.Link
+{
+    color: #033521;
+    font-size: 3.5vh;
+    margin-right: 2vw;
+    font-weight: bold;
+    font-family:Aeonik;
+}
+
+a.Link#active
+{
+    background-color: #83cca1;
+    padding: 1.5vh 1.5vw;
+}
+
+a.Link:hover
+{
+    background-color: #6eb78b;
+    padding: 1.5vh 1.5vw;
+}
+
+/* Navigation/Header */
+
+/* Body */
+
+div.Body
+{
+    margin-top: 4.5vh;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    margin-bottom: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+iframe
+{
+    width: 75vw;
+    height: 50vh;
+}
+
+img.ImageLogo1
+{
+    height: 7vh;
+    width: 5vw;
+}
+
+img.ImageLogo2 
+{
+    height: 7vh;
+    width: 4vw;
+}
+
+img.ImageLogo3
+{
+    height: 5vh;
+    width: 3.5vw;
+}
+
+ul.Contacts
+{
+    margin-top: 8vh;
+    color: #0A2F51;
+    font-size: 3vh;
+    font-family:Aeonik;
+} 
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+{
+
+    img.ImageLogo1
+    {
+        height: 10vh;
+        width: 18vw;
+    }
+    
+    img.ImageLogo2 
+    {
+        height: 10vh;
+        width: 13vw;
+    }
+    
+    img.ImageLogo3
+    {
+        height: 8vh;
+        width: 13vw;
+    }
+
+}
+
+
+/* Body */
